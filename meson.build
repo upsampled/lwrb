@@ -11,7 +11,7 @@ subdir('lwrb/src/include')
 subdir('lwrb/src')
 
 
-libsimple_dep = declare_dependency(include_directories : inc,
+liblwrbe_dep = declare_dependency(include_directories : inc,
   link_with : liblwrb)
 
 pkg_mod = import('pkgconfig')
